@@ -54,6 +54,7 @@
 
 .projectDescription {
     padding-top: 3%;
+    padding-bottom: 5%;
     text-align: left;
     margin: auto;
     font-size: 20px;
@@ -61,7 +62,10 @@
 }
 
 .projectImage {
+    max-width: 100%;
     padding-top: 3%;
     display: block;
     margin: auto;
+    height: auto;
+    width: auto\9;
 }
