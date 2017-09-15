@@ -1,0 +1,31 @@
+#name {
+  -webkit-animation-delay: 0.5s;
+  position: relative;
+  top: 40%;
+  color: white;
+  font-size: 50px;
+}
+
+#line {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 40%;
+}
+
+#sub-heading{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 50%;
+}
+
+.mainName {
+  background-image: url('https://i.ytimg.com/vi/Rg_hwcZ34pA/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.credentials {
+  padding-top: 10%;
+}
