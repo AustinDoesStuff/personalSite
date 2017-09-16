@@ -1,7 +1,7 @@
 #name {
   -webkit-animation-delay: 0.5s;
   position: relative;
-  top: 40%;
+  top: 55%;
   color: white;
   font-size: 50px;
 }
@@ -10,20 +10,29 @@
   color: white;
   font-size: 50px;
   position: relative;
-  top: 40%;
+  top: 55%;
+
 }
 
 #sub-heading{
   color: white;
   font-size: 25px;
   position: relative;
-  top: 40%;
+  top: 55%;
+
+}
+
+.test {
+    height: 60%;
 }
 
 .mainName {
   background-image: url('https://i.ytimg.com/vi/Rg_hwcZ34pA/maxresdefault.jpg');
   background-repeat: no-repeat;
   height: 500px;
+  top:40%;
+  position: relative;
+  min-width: 413px;
 }
 
 .credentials {
@@ -40,7 +49,7 @@
     text-align: left;
     margin: auto;
     font-size: 20px;
-    width: 45%;
+    width: 50%;
 }
 
 #aboutHeading {
@@ -58,7 +67,11 @@
     text-align: left;
     margin: auto;
     font-size: 20px;
-    width: 50%;
+    width: 60%;
+}
+
+.fa {
+    color: white;
 }
 
 .projectImage {

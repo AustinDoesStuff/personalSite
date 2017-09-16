@@ -4,16 +4,26 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="animate.css">
+        <script src="https://use.fontawesome.com/275fb12708.js"></script>
+        <script src="function.js"></script>
         <title>Austin Tanner</title>
     </head>
     <body>
         <div class="container-fluid">
             <div class="mainName text-center">
+                <div class="test">
                 <span class="animated slideInLeft" id="line">—</span>
                 <span class="animated fadeIn" id="name">Austin Tanner</span>
                 <span class="animated slideInRight" id="line">—</span>
-                <br>
+                <br/>
                 <span id="sub-heading">online resume</span>
+                <br/>
+            </div>
+                <a href="https://github.com/AustinDoesStuff" target="_blank"  title="see my stupid code"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/AustinDoesStuff" target="_blank"  title="see my stupid thoughts"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/austindoesstuff/" target="_blank"  title="see my stupid pictures"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                <a href="https://linkedin.com/in/austin-tanner" target="_blank"  title="see me professionally"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                <br>
             </div>
 
             <div class="credentials text-center">
@@ -27,7 +37,7 @@
 
                 <div class="about">
                     <span>My name is Austin Tanner, and I do stuff.  I enjoy Dungeons and Dragons,
-                        comic books and hanging out with my fiancé Morgan and our puppy
+                        comic books and hanging out with my wife Morgan and our puppy
                         Mable.  I'm currently seeking an opportunity as a Junior
                         Developer, I know Java, Python, and JavaScript.
                     </span>
@@ -38,7 +48,7 @@
                     <br/>
 
                     <h2>Austin's Crappy Weather</h2>
-                    <a href="http://austinscrappyweather.com" title="Check out mah weather!">
+                    <a href="http://austinscrappyweather.com" target="_blank"  title="Check out mah weather!">
                         <img class="projectImage" src="images/weather.png"></img>
                     </a>
                     <div class="projectDescription">
@@ -53,7 +63,7 @@
                     </div>
 
                     <h2>SpeedTest</h2>
-                    <a href="https://github.com/AustinDoesStuff/speedtest" title="Check this repo, quick!">
+                    <a href="https://github.com/AustinDoesStuff/speedtest" target="_blank"  title="Check this repo, quick!">
                         <img class="projectImage" src="images/speedtest.png"></img>
                     </a>
                     <div class="projectDescription">
@@ -66,6 +76,23 @@
                             if the results are less than 80% of what I'm paying for
                             the results are tweeted out using OAuth2 to authenticate and Tweepy
                             to send the tweet.
+                        </span>
+                    </div>
+
+                    <h2>What's Trending</h2>
+                    <a href="https://github.com/AustinDoesStuff/whatstrending" target="_blank"  title="This repo is trending">
+                        <img class="projectImage" src="images/whatstrending.png"></img>
+                    </a>
+                    <div class="projectDescription">
+                        <span>
+                            What's Trending is a web app that pulls the top ten pieces
+                            of trending data from Twitter and Reddit.  This has a
+                            python backend using Django for templating, SQLite,
+                            django_REST, Tweepy, and PRAW.  This app works by using
+                            Tweepy and PRAW to pull the top ten trending links/hashtags
+                            , storing it in the database then calling it to display in
+                            an unordered list.  Django_REST was used to build out a RESTful
+                            API to allow for future expansion.
                         </span>
                     </div>
                 </div>
