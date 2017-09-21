@@ -1,3 +1,18 @@
-function changeButton(x) {
-    x.classList.toggle("change");
+function menuClick() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById('lines').classList.toggle("change");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
