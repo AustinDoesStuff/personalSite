@@ -142,3 +142,12 @@ background-image: linear-gradient(
     height: auto;
     width: auto\9;
 }
+
+.expImage {
+    max-width: 100%;
+    
+}
+
+.expDesc, .expHeading, .expSubHeading {
+    text-align: left;
+}
