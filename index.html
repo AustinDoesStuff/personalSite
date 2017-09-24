@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="images/favicon.ico">
-        <script src="https://use.fontawesome.com/275fb12708.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="function.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/275fb12708.js"></script>
+
         <title>Austin Tanner</title>
     </head>
     <body>
@@ -36,10 +38,11 @@
                       <h4 class="modal-title">I'm all ears.</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="https://formspree.io/your@email.com" method="POST">
-                            <input type="text" name="name">
-                            <input type="email" name="_replyto">
-                            <input type="submit" value="Send">
+                        <form action="https://formspree.io/austin.tanner04@gmail.com" method="POST">
+                            <label name="name"><p>Name:<br> <input type="text" name="name" placeholder="Cooley McCoolperson" required></p></label><br/>
+                            <label name="email"><p>Email:<br> <input type="email" name="_replyto" placeholder="coolperson@coolperson.com" required></p></label><br/>
+                            <label name="body"><p>Message:<br> <textarea type="text" name="body" placeholder="I want to pay you a reasonable amount of money to write a reasonable amount of code." required></textarea></p><label><br>
+                            <button type="submit" value="Send" class="btn send">Send</button>
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -63,7 +66,7 @@
                 <a href="https://twitter.com/AustinDoesStuff" target="_blank"  title="see my stupid thoughts"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/austindoesstuff/" target="_blank"  title="see my stupid pictures"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
                 <a href="https://linkedin.com/in/austin-tanner" target="_blank"  title="see me professionally"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                <a href="mailto:austin.tanner04@gmail.com"  title="send me mail"><i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
+                <a data-toggle="modal" data-target="#contactInfo"  title="send me mail"><i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
                 <br>
             </div>
 
