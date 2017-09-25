@@ -161,3 +161,7 @@ background-image: linear-gradient(
 .expDesc, .expHeading, .expSubHeading {
     text-align: left;
 }
+
+.row, .education {
+    padding-top:10%;
+}
